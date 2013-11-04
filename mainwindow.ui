@@ -20,10 +20,13 @@
       <item>
        <widget class="QLabel" name="lblView">
         <property name="styleSheet">
-         <string notr="true">background:rgb(255,255,255);</string>
+         <string notr="true"/>
         </property>
         <property name="text">
          <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
