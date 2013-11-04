@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include <QApplication>
 
-void setupUI(MainWindow *w){
+void setup(MainWindow *w){
     QDesktopWidget widget;
     QRect windowSize = widget.availableGeometry(widget.primaryScreen());
     int screenWidth = windowSize.width();
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
-    setupUI(&w);
+    setup(&w);
     w.show();
     
     return a.exec();
