@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "aboutbox.h"
 #include <QApplication>
 
 void setup(MainWindow *w){

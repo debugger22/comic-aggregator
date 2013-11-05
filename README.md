@@ -1,4 +1,4 @@
-comic-aggregator
+Comic Aggregator
 ================
 
-A comic aggregator with UI developed in Python &amp; QT.
+A comic aggregator with GUI developed in C++ & QT.

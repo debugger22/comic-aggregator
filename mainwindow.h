@@ -10,6 +10,11 @@
 #include <fstream>
 #include <QUrl>
 #include <QPixmap>
+#include <iostream>
+#include <QRegExp>
+#include <stdlib.h>
+#include <ctime>
+#include "aboutbox.h"
 
 
 namespace Ui {
@@ -25,13 +30,17 @@ public:
     ~MainWindow();
 public slots:
     void fetch();
+    void getImageUrl();
     void loadImage();
+    void showAboutBox();
 
-    
 private:
     Ui::MainWindow *ui;
+    aboutBox *ab;
+
 public:
     FileDownloader *m_pImgCtrl;
+    FileDownloader *imageDownloader;
     //QDownloader downloader;
 };
 
