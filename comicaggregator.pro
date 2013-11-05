@@ -15,12 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     filedownloader.cpp \
-    DownloadFileHandler.cpp
+    DownloadFileHandler.cpp \
+    aboutbox.cpp
 
 HEADERS  += mainwindow.h \
     filedownloader.h \
-    DownloadFileHandler.h
+    DownloadFileHandler.h \
+    aboutbox.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    aboutbox.ui
 
 QT += network
