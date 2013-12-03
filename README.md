@@ -1,7 +1,8 @@
 Comic Aggregator
 ================
 
-A comic aggregator with GUI developed in C++ & QT.
+A comic aggregator with GUI developed in C++ & QT.<br/>
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrsud/comic-aggregator/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 To Do
