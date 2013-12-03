@@ -2,7 +2,7 @@ Comic Aggregator
 ================
 
 A comic aggregator with GUI developed in C++ & QT.
-
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrsud/comic-aggregator/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 To Do
 =====
@@ -14,6 +14,4 @@ To Do
 Authors
 =======
 * Sudhanshu Mishra
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrsud/comic-aggregator/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
